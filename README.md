@@ -24,4 +24,17 @@ Next, you'll need to get a copy of this project onto your computer. This process
 - Now, type the following command and press Enter: `git clone https://github.com/your-username/YouTube-to-Spotify-Converter.git` (Note: replace "your-username" with the actual username where the project is hosted).
 - The project will be downloaded to your chosen directory.
 
-Congratulations! You've successfully set up the YouTube to Spotify Converter on your computer. Follow any additional instructions provided in the project to start converting links!
+### Configuration
+
+Before you start using the YouTube to Spotify Converter, you need to configure it with your own API keys. This project requires API keys for both YouTube and Spotify to function correctly.
+
+- **YouTube API Key**: You'll need a YouTube Data API key to fetch video details from YouTube. You can obtain this key from the [Google Cloud Console](https://console.cloud.google.com/).
+- **Spotify API Key**: This project also requires a Spotify API key (Client ID and Client Secret) to interact with the Spotify Web API. You can get these keys from the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
+
+Once you have obtained your API keys, open the `config.py` file located in the root directory of this project. Replace the placeholder values with your actual API keys as shown below:
+
+Make sure to save your changes to `config.py`. With your API keys configured, you're now ready to start converting YouTube Music links to Spotify links!
+
+--------
+
+Once done, just run python3 main.py to start using the tool.
