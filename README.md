@@ -2,6 +2,8 @@
 
 Welcome to the YouTube to Spotify Converter! This handy tool watches for any YouTube Music links you copy to your clipboard and instantly transforms them into Spotify links for your convenience.
 
+https://github.com/ankitkr0/youtube2spotify/assets/162094577/0a746510-171b-4257-accb-ab64db1b54d3
+
 ## Getting Started: A Step-by-Step Guide
 
 We've made setting up this tool as straightforward as possible, so you don't need to be a developer to get it up and running! Just follow these simple steps:
